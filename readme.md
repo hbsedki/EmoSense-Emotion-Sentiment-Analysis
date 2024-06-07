@@ -8,3 +8,6 @@
 
 ### Data Pre-processing and Expirements:
 <div style="text-align: justify"> We parallize pre-processing and feature extraction by using ThreadPoolExecutor and speed up the sequential extraction from 90 minutes to 20 minutes by parallel computing. and we do two different preprocessings and experiments. First, we extract only MFCCs from clips and augmented data by adding noise, shifting, and stritching. Also, the LSTM model achieves 76% accuracy. Second, we extract ZCR, RMS, and MFCCs, and data augmentation is done by shifting and adding noise. As a result, the CNN model reached 86% accuracy. </div>
+
+
+
